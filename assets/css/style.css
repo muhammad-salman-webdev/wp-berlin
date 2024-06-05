@@ -141,6 +141,13 @@
     display: flex;
     align-items: center;
     gap: 13px;
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
 
     & img {
       width: 40px;
