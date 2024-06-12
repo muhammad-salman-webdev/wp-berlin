@@ -37,15 +37,16 @@
       top: unset;
       bottom: -5px;
       width: 60px;
-      right: 15%;
+      right: unset;
+      left: calc(200px + 25vw);
     }
 
     @media (max-width:500px) {
-      right: 10%;
+      left: calc(200px + 20vw);
     }
 
     @media (max-width:400px) {
-      right: 2%;
+      left: calc(200px + 17vw);
     }
   }
 
@@ -153,6 +154,10 @@
     text-decoration: none;
     color: black;
     transition: all .3s ease;
+
+    @media (max-width:576px) {
+      margin-left: -10vw;
+    }
 
     &:hover {
       transform: translateY(-5px);
