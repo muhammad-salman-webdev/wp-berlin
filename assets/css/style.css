@@ -35,18 +35,18 @@
 
     @media (max-width:576px) {
       top: unset;
-      bottom: -5px;
+      bottom: -7px;
       width: 60px;
       right: unset;
-      left: calc(200px + 25vw);
+      left: calc(200px + 30vw);
     }
 
     @media (max-width:500px) {
-      left: calc(200px + 20vw);
+      left: calc(200px + 25vw);
     }
 
     @media (max-width:400px) {
-      left: calc(200px + 17vw);
+      left: calc(200px + 18vw);
     }
   }
 
@@ -156,7 +156,15 @@
     transition: all .3s ease;
 
     @media (max-width:576px) {
-      margin-left: -10vw;
+      margin-left: -12vw;
+    }
+
+    @media (max-width:500px) {
+      margin-left: -14vw;
+    }
+
+    @media (max-width:400px) {
+      margin-left: -18vw;
     }
 
     &:hover {
