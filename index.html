@@ -7,6 +7,12 @@
     <!-- Title -->
     <title>Document</title>
 
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/hero-logo-img.svg"
+      type="image/x-icon" />
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,6 +34,48 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- ------------------ -->
+    <!-- Header Starts Here -->
+    <!-- ------------------ -->
+    <section class="header_section">
+      <div class="container">
+        <header class="header">
+          <div class="header-container">
+            <!-- Search Container  -->
+            <div class="search_on_type-container">
+              <div class="search_input-btn">
+                <!-- Input -->
+                <div class="serach_input">
+                  <input type="text" placeholder="Search Cities Here..." />
+                </div>
+                <!-- Button -->
+                <div class="search_input-anim-btn">
+                  <button>Search</button>
+                </div>
+              </div>
+              <!-- Result -->
+              <div class="input_typed-results">
+                <ul>
+                  <li>
+                    <a href="#">This a result found</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Search Container  -->
+          </div>
+        </header>
+      </div>
+    </section>
+    <!-- ---------------- -->
+    <!-- Header Ends Here -->
+    <!-- ---------------- -->
+
+    <!-- ##### -->
+    <!-- ##### -->
+    <!-- ##### -->
+    <!-- ##### -->
+
     <!-- ------------------------ -->
     <!-- Hero Section Starts Here -->
     <!-- ------------------------ -->
@@ -74,11 +122,46 @@
           <div class="hero_search">
             <!-- Input -->
             <div>
-              <img src="assets/images/search.png" alt="#" />
-              <input
-                type="text"
-                placeholder="Ort/die Postleitzahl oder den Namen des Trauerredners" />
-              <button>Suchen</button>
+              <div
+                class="search_on_type-container hero-search_on_type-container">
+                <div class="search_input-btn">
+                  <!-- Input -->
+                  <div class="serach_input">
+                    <img src="assets/images/search.png" alt="#" />
+                    <input type="text" placeholder="Search Cities Here..." />
+                  </div>
+                  <!-- Button -->
+                  <div class="search_input-anim-btn">
+                    <button>Search</button>
+                  </div>
+                </div>
+                <!-- Result -->
+                <div class="input_typed-results">
+                  <ul>
+                    <li>
+                      <a href="#">This a result found</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >This a result a result a result a result a result a
+                        result a result found</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#">This a result found</a>
+                    </li>
+                    <li>
+                      <a href="#">This a result found</a>
+                    </li>
+                    <li>
+                      <a href="#">This a result found</a>
+                    </li>
+                    <li>
+                      <a href="#">This a result found</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <!-- Desc -->
             <p>
@@ -555,4 +638,5 @@
     <!-- -------------------- -->
     <!-- -------------------- -->
   </body>
+  <script src="assets/js/script.js"></script>
 </html>
