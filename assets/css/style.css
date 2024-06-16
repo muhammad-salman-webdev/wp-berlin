@@ -66,7 +66,7 @@
     position: relative;
     z-index: 1;
 
-    .serach_input {
+    .search_input {
       width: 220px;
       transition: all .3s ease;
 
@@ -165,6 +165,7 @@
   /* Results */
   .input_typed-results {
     position: absolute;
+    display: none;
     top: 30px;
     width: 100%;
     border-radius: 0 0 20px 20px;
@@ -261,6 +262,10 @@
       }
     }
   }
+
+  .input_typed-results:has(ol.show) {
+    display: block;
+  }
 }
 
 /* Hero Section */
@@ -352,7 +357,7 @@
         width: 100%;
 
         &>.search_input-btn {
-          & .serach_input {
+          & .search_input {
             width: 100%;
             position: relative;
 
