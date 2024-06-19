@@ -157,33 +157,33 @@ function Search_Query_n_Get_Results(searchQuery, signal) {
   // Simulated data for speakers, cities, and other parameters
   const speakers = `
     <li>
-      <p>Speakers</p>
+      <p>Speakers:</p>
       <ul>
-        <li><a href="#">${searchQuery}</a></li>
-        <li><a href="#">${searchQuery}</a></li>
-        <li><a href="#">${searchQuery}</a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
       </ul>
     </li>
   `;
 
   const cities = `
     <li>
-      <p>Cities</p>
+      <p>Cities:</p>
       <ul>
-        <li><a href="#">${searchQuery}</a></li>
-        <li><a href="#">${searchQuery}</a></li>
-        <li><a href="#">${searchQuery}</a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
       </ul>
     </li>
   `;
 
   const others = `
     <li>
-      <p>Others</p>
+      <p>Others:</p>
       <ul>
-        <li><a href="#">${searchQuery}</a></li>
-        <li><a href="#">${searchQuery}</a></li>
-        <li><a href="#">${searchQuery}</a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
       </ul>
     </li>
   `;
