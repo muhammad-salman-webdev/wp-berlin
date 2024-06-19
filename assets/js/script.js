@@ -161,8 +161,7 @@ function Search_Query_n_Get_Results(searchQuery, signal) {
       <ul>
         <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
         <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
-        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
-      </ul>
+       </ul>
     </li>
   `;
 
@@ -170,6 +169,7 @@ function Search_Query_n_Get_Results(searchQuery, signal) {
     <li>
       <p>Cities:</p>
       <ul>
+        <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
         <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
         <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
         <li><a href="#">${searchQuery} <strong>${"Other Words"}</strong> </a></li>
